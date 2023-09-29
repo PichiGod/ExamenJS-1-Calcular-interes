@@ -28,7 +28,7 @@ function proceso(){
             <h3>ERROR: La cantidad ingresada es invalida</h3>`; 
         // console.log("Yo estoy activo");
     }else{
-        var interesimple = capital * im * t;
+        var interesimple = (capital*12) * im * t;
         document.getElementById("resp").innerHTML = `
             <h1> Tomando en cuenta el interes que tiene su cuenta de ahorros sabiendo que: </h1>
             <p>- La cuenta genera un interés del 15% anual, lo que equivale a 1,25% mensual </p>
